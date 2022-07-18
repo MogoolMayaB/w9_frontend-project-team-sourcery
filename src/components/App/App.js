@@ -39,7 +39,7 @@ function App() {
 
   // function to add a new resources to the backend
   async function postResources(input) {
-    const res = await fetch("https://sourcery1.herokuapp.com/", {
+    const res = await fetch("https://sourcery1.herokuapp.com", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(input),
@@ -50,7 +50,7 @@ function App() {
 
   // used to get the resources table from the backend
   async function fetchResources() {
-    const response = await fetch("https://sourcery1.herokuapp.com/");
+    const response = await fetch("https://sourcery1.herokuapp.com");
     const data = await response.json();
 
     return data.rows;
