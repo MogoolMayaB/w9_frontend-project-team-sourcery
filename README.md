@@ -1,81 +1,70 @@
+# Getting Started with Create React App
 
-# Sourcery
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Sourcery is a centralized platform for posting and viewing resources that could be of use to School of Code bootcampers.
+## Available Scripts
 
-Users can post links to resources they deem useful by entering their name, the URL of the resource and a brief description of how the resource may be helpful into the dedicated input fields at the top of the page. 
+In the project directory, you can run:
 
-Users can also view resources previously posted by themself or other users, and are even able to add a like to the post to show their appreciation.
+### `npm start`
 
-There are also links across the navigation bar which lead to well known commonly used resources.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
-## Table of Contents
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
- - [Run Locally](#run-locally)
- - [Testing](#testing)
- - [Notes](#notes)
+### `npm run build`
 
-## Run Locally
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Clone the front-end:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```bash
-  git clone https://github.com/SchoolOfCode/w9_frontend-project-team-sourcery.git
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Go to the project directory:
+### `npm run eject`
 
-```bash
-  cd sourcery
-```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Install dependencies:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```bash
-  npm install
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Run app in browser:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-```bash
-  npm start
-```
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Testing
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Cypress was used to run end-to-end tests on the app.
+### Code Splitting
 
-To open Cypress:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-```bash
-  cypress open
-```
+### Analyzing the Bundle Size
 
-To run tests, run the following command:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-```bash
-  npx cypress run
-```
+### Making a Progressive Web App
 
-## Libraries
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-- React
-- Cypress
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-## Notes
-More functionality will be added in future and the document updated accordingly.
+### Deployment
 
-*Drop down menu to filter resources by week currently not functional.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## Authors
+### `npm run build` fails to minify
 
-- Owen Ahmed
-- Maya Mogool Bafo
-- Blake Lawrence
-- Karim Mallah
-- Afam Okoh
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
